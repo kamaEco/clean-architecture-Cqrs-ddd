@@ -1,0 +1,15 @@
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\obj\Debug\net8.0\CleanDDDCQRS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\obj\Debug\net8.0\CleanDDDCQRS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\obj\Debug\net8.0\CleanDDDCQRS.Infrastructure.AssemblyInfo.cs
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\obj\Debug\net8.0\CleanDDDCQRS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\obj\Debug\net8.0\CleanDDDCQRS.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\bin\Debug\net8.0\CleanDDDCQRS.Infrastructure.deps.json
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\bin\Debug\net8.0\CleanDDDCQRS.Infrastructure.dll
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\bin\Debug\net8.0\CleanDDDCQRS.Infrastructure.pdb
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\bin\Debug\net8.0\CleanDDDCQRS.Domain.dll
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\bin\Debug\net8.0\CleanDDDCQRS.Domain.pdb
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\obj\Debug\net8.0\CleanDDDCQRS.Infrastructure.csproj.CopyComplete
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\obj\Debug\net8.0\CleanDDDCQRS.Infrastructure.dll
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\obj\Debug\net8.0\refint\CleanDDDCQRS.Infrastructure.dll
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\obj\Debug\net8.0\CleanDDDCQRS.Infrastructure.pdb
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Infrastructure\obj\Debug\net8.0\ref\CleanDDDCQRS.Infrastructure.dll

@@ -1,0 +1,11 @@
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Domain\bin\Debug\net8.0\CleanDDDCQRS.Domain.deps.json
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Domain\bin\Debug\net8.0\CleanDDDCQRS.Domain.dll
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Domain\bin\Debug\net8.0\CleanDDDCQRS.Domain.pdb
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Domain\obj\Debug\net8.0\CleanDDDCQRS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Domain\obj\Debug\net8.0\CleanDDDCQRS.Domain.AssemblyInfoInputs.cache
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Domain\obj\Debug\net8.0\CleanDDDCQRS.Domain.AssemblyInfo.cs
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Domain\obj\Debug\net8.0\CleanDDDCQRS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Domain\obj\Debug\net8.0\CleanDDDCQRS.Domain.dll
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Domain\obj\Debug\net8.0\refint\CleanDDDCQRS.Domain.dll
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Domain\obj\Debug\net8.0\CleanDDDCQRS.Domain.pdb
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Domain\obj\Debug\net8.0\ref\CleanDDDCQRS.Domain.dll

@@ -1,0 +1,262 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\CleanDDDCQRS.API.csproj": {}
+  },
+  "projects": {
+    "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\CleanDDDCQRS.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\CleanDDDCQRS.API.csproj",
+        "projectName": "CleanDDDCQRS.API",
+        "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\CleanDDDCQRS.API.csproj",
+        "packagesPath": "C:\\Users\\esah0310\\.nuget\\packages\\",
+        "outputPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esah0310\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj": {
+                "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj",
+        "projectName": "CleanDDDCQRS.Application",
+        "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj",
+        "packagesPath": "C:\\Users\\esah0310\\.nuget\\packages\\",
+        "outputPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esah0310\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj": {
+                "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj",
+        "projectName": "CleanDDDCQRS.Domain",
+        "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj",
+        "packagesPath": "C:\\Users\\esah0310\\.nuget\\packages\\",
+        "outputPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esah0310\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj",
+        "projectName": "CleanDDDCQRS.Infrastructure",
+        "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\esah0310\\.nuget\\packages\\",
+        "outputPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esah0310\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj": {
+                "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\obj\Debug\net8.0\CleanDDDCQRS.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\obj\Debug\net8.0\CleanDDDCQRS.Application.AssemblyInfoInputs.cache
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\obj\Debug\net8.0\CleanDDDCQRS.Application.AssemblyInfo.cs
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\obj\Debug\net8.0\CleanDDDCQRS.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\obj\Debug\net8.0\CleanDDDCQRS.Application.csproj.AssemblyReference.cache
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\bin\Debug\net8.0\CleanDDDCQRS.Application.deps.json
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\bin\Debug\net8.0\CleanDDDCQRS.Application.dll
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\bin\Debug\net8.0\CleanDDDCQRS.Application.pdb
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\bin\Debug\net8.0\CleanDDDCQRS.Domain.dll
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\bin\Debug\net8.0\CleanDDDCQRS.Infrastructure.dll
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\bin\Debug\net8.0\CleanDDDCQRS.Infrastructure.pdb
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\bin\Debug\net8.0\CleanDDDCQRS.Domain.pdb
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\obj\Debug\net8.0\CleanDDDCQRS.Application.csproj.CopyComplete
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\obj\Debug\net8.0\CleanDDDCQRS.Application.dll
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\obj\Debug\net8.0\refint\CleanDDDCQRS.Application.dll
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\obj\Debug\net8.0\CleanDDDCQRS.Application.pdb
+C:\Users\Ahmad\source\repos\CleanDDDCQRS\CleanDDDCQRS.Application\obj\Debug\net8.0\ref\CleanDDDCQRS.Application.dll
