@@ -7,6 +7,9 @@ using MediatR;
 using CleanDDDCQRS.Infrastructure;
 using CleanDDDCQRS.Domain;
 
+
+
+
 namespace CleanDDDCQRS
 {
     public class Startup
