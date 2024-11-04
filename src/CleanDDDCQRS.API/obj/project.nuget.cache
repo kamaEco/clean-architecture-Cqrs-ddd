@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pOmA2YxJr5nKH8wBWe7ANpOrq0ZOyk0nf890bsCtK/OK590NFrHsuXnJvaQ8vS4j3CDaeHjNkC6+U2VZRqPKFA==",
+  "dgSpecHash": "D34rV8ROh285qAJH7TsYFr8CBysmsHxKf+Z7q9YjjDlmKwLeaUgfhJ/s9DlCdj9tlfuHxP4kI80sbNtR8DekCQ==",
   "success": true,
   "projectFilePath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\CleanDDDCQRS.API.csproj",
   "expectedPackageFiles": [
@@ -43,8 +43,10 @@
     "C:\\Users\\esah0310\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\esah0310\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\esah0310\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "C:\\Users\\esah0310\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\esah0310\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\esah0310\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
+    "C:\\Users\\esah0310\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.9.0\\swashbuckle.aspnetcore.swagger.6.9.0.nupkg.sha512",
     "C:\\Users\\esah0310\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\esah0310\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\esah0310\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
