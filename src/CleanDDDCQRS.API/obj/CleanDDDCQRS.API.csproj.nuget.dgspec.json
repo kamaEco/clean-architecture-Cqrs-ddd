@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\CleanDDDCQRS.API.csproj": {}
+    "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\CleanDDDCQRS.API.csproj": {}
   },
   "projects": {
-    "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\CleanDDDCQRS.API.csproj": {
+    "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\CleanDDDCQRS.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\CleanDDDCQRS.API.csproj",
+        "projectUniqueName": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\CleanDDDCQRS.API.csproj",
         "projectName": "CleanDDDCQRS.API",
-        "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\CleanDDDCQRS.API.csproj",
-        "packagesPath": "C:\\Users\\esah0310\\.nuget\\packages\\",
-        "outputPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\obj\\",
+        "projectPath": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\CleanDDDCQRS.API.csproj",
+        "packagesPath": "C:\\Users\\Ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\esah0310\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj": {
-                "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj"
+              "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj": {
+                "projectPath": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj"
               }
             }
           }
@@ -46,15 +46,25 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[12.4.1, )"
+              "version": "[11.1.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.1.0, )"
             },
-            "Microsoft.AspNetCore.Mvc.Core": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.5, )"
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -73,25 +83,28 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj": {
+    "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj",
+        "projectUniqueName": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj",
         "projectName": "CleanDDDCQRS.Application",
-        "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj",
-        "packagesPath": "C:\\Users\\esah0310\\.nuget\\packages\\",
-        "outputPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\obj\\",
+        "projectPath": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\CleanDDDCQRS.Application.csproj",
+        "packagesPath": "C:\\Users\\Ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\esah0310\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,8 +118,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj": {
-                "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj"
+              "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj": {
+                "projectPath": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj"
               }
             }
           }
@@ -123,7 +136,7 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[12.4.1, )"
+              "version": "[11.1.0, )"
             }
           },
           "imports": [
@@ -142,21 +155,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj": {
+    "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj",
+        "projectUniqueName": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj",
         "projectName": "CleanDDDCQRS.Domain",
-        "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj",
-        "packagesPath": "C:\\Users\\esah0310\\.nuget\\packages\\",
-        "outputPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\obj\\",
+        "projectPath": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj",
+        "packagesPath": "C:\\Users\\Ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\esah0310\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -197,21 +210,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj": {
+    "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj",
         "projectName": "CleanDDDCQRS.Infrastructure",
-        "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\esah0310\\.nuget\\packages\\",
-        "outputPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\obj\\",
+        "projectPath": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\CleanDDDCQRS.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\esah0310\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -225,8 +238,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj": {
-                "projectPath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj"
+              "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj": {
+                "projectPath": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj"
               }
             }
           }
@@ -242,6 +255,16 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.20, )"
             }
@@ -262,7 +285,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

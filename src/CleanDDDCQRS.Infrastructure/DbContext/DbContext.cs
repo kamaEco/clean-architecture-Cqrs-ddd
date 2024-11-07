@@ -9,6 +9,8 @@ namespace CleanDDDCQRS.Infrastructure
         {
         }
 
+        public ApplicationDbContext() { }
+
         public DbSet<Customer> Customers { get; set; } // اینجا DbSet را تعریف کنید
 
         // در صورت نیاز DbSet های دیگری نیز برای سایر موجودیت‌ها اضافه کنید.

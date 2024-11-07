@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QVM2ynC3YypvyTgXzREzAgDjzv9PkJlSwhup8HKizKQOErnInP+TF6K0A0kneIB4y4hyVB7EL6CV/GoP//QWBQ==",
+  "dgSpecHash": "YP6mRqrGjSam0AvFTAvrtAEvLwGYZN8Jpf63udBjDRW4UnGQysd/khp2fDMReW2DljH4+nUxNn/5uFh/7MDiiA==",
   "success": true,
-  "projectFilePath": "F:\\AhmadPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj",
+  "projectFilePath": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.Domain\\CleanDDDCQRS.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

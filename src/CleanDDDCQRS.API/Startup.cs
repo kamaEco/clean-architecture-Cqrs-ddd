@@ -1,16 +1,18 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
 using MediatR;
 using CleanDDDCQRS.Infrastructure;
 using CleanDDDCQRS.Domain;
+using CleanDDDCQRS.Application;
 
 
 
 
-namespace CleanDDDCQRS
+namespace CleanDDDCQRS.API1
 {
     public class Startup
     {
@@ -23,15 +25,16 @@ namespace CleanDDDCQRS
 
         public void ConfigureServices(IServiceCollection services)
         {
-            //// تنظیم DbContext
-            //services.AddDbContext<ApplicationDbContext>(options =>
-            //    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            // تنظیم DbContext
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("CLEANDDDCQRSConnectionString")));
 
             // ثبت Repository
             services.AddScoped<ICustomerRepository, CustomerRepository>();
 
             // ثبت MediatR
             services.AddMediatR(typeof(Startup)); // اگر Startup در لایه Application باشد
+            services.AddMediatR(typeof(CreateCustomerHandler).Assembly);
 
             // ثبت کنترلرها
             services.AddControllers();

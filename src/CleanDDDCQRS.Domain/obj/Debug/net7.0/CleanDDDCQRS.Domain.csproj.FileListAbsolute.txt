@@ -20,3 +20,15 @@ F:\AhmadPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\obj\Debug\net7.0
 F:\AhmadPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\obj\Debug\net7.0\refint\CleanDDDCQRS.Domain.dll
 F:\AhmadPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\obj\Debug\net7.0\CleanDDDCQRS.Domain.pdb
 F:\AhmadPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\obj\Debug\net7.0\ref\CleanDDDCQRS.Domain.dll
+D:\Edgucation\GitPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\bin\Debug\net7.0\CleanDDDCQRS.Domain.deps.json
+D:\Edgucation\GitPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\bin\Debug\net7.0\CleanDDDCQRS.Domain.dll
+D:\Edgucation\GitPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\bin\Debug\net7.0\CleanDDDCQRS.Domain.pdb
+D:\Edgucation\GitPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\obj\Debug\net7.0\CleanDDDCQRS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Edgucation\GitPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\obj\Debug\net7.0\CleanDDDCQRS.Domain.AssemblyInfoInputs.cache
+D:\Edgucation\GitPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\obj\Debug\net7.0\CleanDDDCQRS.Domain.AssemblyInfo.cs
+D:\Edgucation\GitPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\obj\Debug\net7.0\CleanDDDCQRS.Domain.csproj.CoreCompileInputs.cache
+D:\Edgucation\GitPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\obj\Debug\net7.0\CleanDDDCQRS.Domain.sourcelink.json
+D:\Edgucation\GitPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\obj\Debug\net7.0\CleanDDDCQRS.Domain.dll
+D:\Edgucation\GitPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\obj\Debug\net7.0\refint\CleanDDDCQRS.Domain.dll
+D:\Edgucation\GitPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\obj\Debug\net7.0\CleanDDDCQRS.Domain.pdb
+D:\Edgucation\GitPro\clean-architecture-Cqrs-ddd\src\CleanDDDCQRS.Domain\obj\Debug\net7.0\ref\CleanDDDCQRS.Domain.dll

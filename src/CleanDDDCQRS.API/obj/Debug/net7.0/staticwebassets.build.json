@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "+UrUnZq3GUEu9Ozo274P1TAToFzK8NkCEloleecEivU=",
+  "Source": "CleanDDDCQRS.API",
+  "BasePath": "_content/CleanDDDCQRS.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CleanDDDCQRS.API\\wwwroot",
+      "Source": "CleanDDDCQRS.API",
+      "ContentRoot": "D:\\Edgucation\\GitPro\\clean-architecture-Cqrs-ddd\\src\\CleanDDDCQRS.API\\wwwroot\\",
+      "BasePath": "_content/CleanDDDCQRS.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
