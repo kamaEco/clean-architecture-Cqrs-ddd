@@ -23,9 +23,9 @@ namespace CleanDDDCQRS.Application.Application.Commands
             if (customer == null)
                 throw new EntityNotFoundException(request.CustomerId);
 
-            customer.FirstName = request.Name;
-            customer.LastName = request.Family;
 
+            customer.UpdateName(request.Name, request.Family);
+        
             await _repository.UpdateAsync(customer);
             return Unit.Value;
         }
