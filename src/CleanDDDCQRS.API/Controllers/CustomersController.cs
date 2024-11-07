@@ -21,6 +21,14 @@ public class CustomersController : ControllerBase
         return CreatedAtAction(nameof(GetCustomer), new { id = customerId }, customerId);
     }
 
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateCustomer(Guid id, [FromBody] UpdateCustomerCommand command)
+    {
+        command.CustomerId = id;
+        await _mediator.Send(command);
+        return NoContent();
+    }
+
     [HttpGet("{id}")]
     public async Task<IActionResult> GetCustomer(Guid id)
     {
@@ -28,4 +36,22 @@ public class CustomersController : ControllerBase
         var customer = await _mediator.Send(query);
         return Ok(customer);
     }
+
+    [HttpGet]
+    public async Task<IActionResult> GetCustomers()
+    {
+        var query = new GetCustomersQuery();
+        var customers = await _mediator.Send(query);
+        return Ok(customers);
+    }
+   
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteCustomer(Guid id)
+    {
+        var command = new DeleteCustomerCommand { CustomerId = id };
+        await _mediator.Send(command);
+        return NoContent();
+    }
+
+
 }
