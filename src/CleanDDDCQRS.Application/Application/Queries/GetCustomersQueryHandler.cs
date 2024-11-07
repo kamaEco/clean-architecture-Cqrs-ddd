@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanDDDCQRS.Application.Application.Queries
 {
-    public class GetCustomersQueryHandler : IRequestHandler<GetCustomersQuery, List<Customer>>
+    public class GetCustomersQueryHandler : IRequestHandler<GetCustomersQuery, List<CustomerDto>>
     {
         private readonly ICustomerRepository _repository;
 
@@ -17,9 +17,16 @@ namespace CleanDDDCQRS.Application.Application.Queries
             _repository = repository;
         }
 
-        public async Task<List<Customer>> Handle(GetCustomersQuery request, CancellationToken cancellationToken)
+        public async Task<List<CustomerDto>> Handle(GetCustomersQuery request, CancellationToken cancellationToken)
         {
-            return await _repository.GetAllAsync();
+            var customers = await _repository.GetAllAsync();
+            return customers.Select(customer => new CustomerDto
+            {
+                Id = customer.Id,
+                FirstName = customer.FirstName,
+                LastName = customer.LastName,
+                DateOfBirth = customer.DateOfBirth
+            }).ToList();
         }
     }
 

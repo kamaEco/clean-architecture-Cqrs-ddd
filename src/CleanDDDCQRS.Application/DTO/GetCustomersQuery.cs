@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanDDDCQRS.Application
 {
-    public class GetCustomersQuery : IRequest<List<Customer>>
+    public class GetCustomersQuery : IRequest<List<CustomerDto>>
     {
     }
 

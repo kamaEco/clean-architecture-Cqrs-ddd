@@ -1,4 +1,5 @@
-﻿using CleanDDDCQRS.Infrastructure;
+﻿using CleanDDDCQRS.Domain;
+using CleanDDDCQRS.Infrastructure;
 using MediatR;
 
 namespace CleanDDDCQRS.Application
