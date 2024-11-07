@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanDDDCQRS.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8afff5ac781b723c96e57bd4a6a1ff8d68854f17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36e555999e2a5a0125da108712ca6ace50842b72")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanDDDCQRS.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanDDDCQRS.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

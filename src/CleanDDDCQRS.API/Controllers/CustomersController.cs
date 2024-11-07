@@ -14,12 +14,23 @@ public class CustomersController : ControllerBase
         _mediator = mediator;
     }
 
+    //[HttpPost]
+    //public async Task<IActionResult> CreateCustomer([FromBody] CreateCustomerCommand command)
+    //{
+    //    var customerId = await _mediator.Send(command);
+    //    return CreatedAtAction(nameof(GetCustomer), new { id = customerId }, customerId);
+    //}
+
     [HttpPost]
     public async Task<IActionResult> CreateCustomer([FromBody] CreateCustomerCommand command)
     {
-        var customerId = await _mediator.Send(command);
+        var cancellationTokenSource = new CancellationTokenSource();
+        /// Cancel Request 
+        ///cancellationTokenSource.Cancel();
+        var customerId = await _mediator.Send(command, cancellationTokenSource.Token);
         return CreatedAtAction(nameof(GetCustomer), new { id = customerId }, customerId);
     }
+
 
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateCustomer(Guid id, [FromBody] UpdateCustomerCommand command)
